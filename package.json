@@ -1,0 +1,22 @@
+{
+  "name": "angular-fe",
+  "version": "1.0.0",
+  "description": "Front End Angular Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shayaans/angular-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shayaans/angular-fe/issues"
+  },
+  "homepage": "https://github.com/shayaans/angular-fe",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
