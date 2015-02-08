@@ -32,4 +32,6 @@ img {
   margin:auto;
   left:0;
   right: 0;
+  max-width: 190px;
+  max-height: 190px;
 }
