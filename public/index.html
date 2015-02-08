@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="" ng-app="displayImageGrid">
+<html ng-app="displayImageGrid">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/public/css/main.css">
 	</head>
-		<body>
+	<body>
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="container" ng-controller="mainController">
 			<!-- Example row of columns -->
@@ -21,7 +21,8 @@
 							<img src="{{ result.IMI.Image }}">
 						</div>
 						<div class="text-container">
-							{{ result.IMI.Name }}
+							{{ result.IMI.Name }} <br>
+							from {{ result.IMI.Brand }} 
 						</div>
 					</div>
 				</div>

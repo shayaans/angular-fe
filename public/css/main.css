@@ -1,9 +1,35 @@
-.mark-container {
-  background: red;
+body {
+  background-color: rgb(239,239,239);
+}
+
+.mark-container {  
   width: 200px;
   margin: 50px;
+  border: 1px solid rgb(203,203,203);
+  box-shadow: 2px 2px 5px #888888;
 }
 
 .image-container {
+  padding: 5px;
+  height: 200px;
+  position: relative;
+}
+
+.text-container {
+  background: rgb(57,57,57);
+  padding: 7px;
+  color: white;
+  text-overflow: ellipsis;
   width: 200px;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+
+img {
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+  left:0;
+  right: 0;
 }
